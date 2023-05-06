@@ -1,0 +1,8 @@
+__pycache__
+venv
+# Yolo-v8
+../Identifying-Counterfeit-Medicines/FileZilla3
+/images-115-max-keys-400
+/Google-Image-Scraper
+*/*.npy
+*.pdf
