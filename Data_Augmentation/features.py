@@ -158,6 +158,10 @@ class getFeatures:
 
         # Return the computed feature
         return [entropy]
+    
+    # def executeFeatures(img):
+
+
 
 # def all_features(img):
 #     color_moments_features = color_moments(img)
