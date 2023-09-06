@@ -5,6 +5,5 @@ venv
 /images-115-max-keys-400
 /Google-Image-Scraper
 */*.npy
-*.pdf
 /Data_Augmentation/metaanalysis
 *.ipynb_checkpoints
