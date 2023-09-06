@@ -6,3 +6,5 @@ venv
 /Google-Image-Scraper
 */*.npy
 *.pdf
+/Data_Augmentation/metaanalysis
+*.ipynb_checkpoints

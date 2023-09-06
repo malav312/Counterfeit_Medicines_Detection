@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Fake and Counterfeit Medicines</title>
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+  </head>
+  <body>
+    <h1>Identifying Counterfeit Medicines</h1>
+
+    <form method="POST" action="/process_image" enctype="multipart/form-data">
+      <input type="file" name="image">
+      <button type="submit">Identify</button>
+    </form>
+
+    <div id="result"></div>
+
+    <form method="POST" action="/verify_item">
+      <label for="item">Select an item to verify:</label>
+      <select id="item" name="item">
+        <option value="item1">Item 1</option>
+        <option value="item2">Item 2</option>
+        <option value="item3">Item 3</option>
+      </select>
+      <button type="submit">Verify</button>
+    </form>
+
+    <div id="verification_result"></div>
+  </body>
+</html>

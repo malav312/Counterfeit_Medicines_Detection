@@ -1,0 +1,51 @@
+/* Set default font and color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Center the page content */
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Style for heading */
+  h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for input fields */
+  input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style for submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for error messages */
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  /* Style for success messages */
+  .success {
+    color: green;
+    margin-top: 5px;
+  }
+  
